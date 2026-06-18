@@ -3,8 +3,8 @@ import path from 'node:path';
 
 import { Elysia, t } from 'elysia';
 
-import cacheStore from './stores/CacheStore';
-import sessionStore from './stores/SessionStore';
+import cacheStore from './stores/CacheStore.ts';
+import sessionStore from './stores/SessionStore.ts';
 
 const appDir = path.join(import.meta.dirname, 'app');
 

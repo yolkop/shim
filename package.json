@@ -1,6 +1,7 @@
 {
     "name": "shim",
     "main": "src/main.ts",
+    "type": "module",
     "dependencies": {
         "elysia": "^1.4.28"
     },
